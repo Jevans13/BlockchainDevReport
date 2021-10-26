@@ -160,9 +160,6 @@ url = "https://github.com/makerdao/dai.js"
 url = "https://github.com/makerdao/demanding-auction"
 
 [[repo]]
-url = "https://github.com/makerdao/deployed-collateral-contracts"
-
-[[repo]]
 url = "https://github.com/makerdao/dev-portal"
 
 [[repo]]
@@ -516,9 +513,6 @@ url = "https://github.com/makerdao/mcd-security"
 
 [[repo]]
 url = "https://github.com/makerdao/mcd-testchain-docker-deploy"
-
-[[repo]]
-url = "https://github.com/makerdao/mcd4j"
 
 [[repo]]
 url = "https://github.com/makerdao/median"

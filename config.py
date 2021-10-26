@@ -27,5 +27,9 @@ def remove_chain_from_config(chain):
     config['chains']['targets'] = ', '.join(chains_targets_arr)
 
 
+
 def get_pats():
-    return os.getenv('GITHUB_PATS').split(" ")
+    #Edited GitHub version - Include GitHub PATS below
+    results = ["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", "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", "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", "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", "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"]
+    return results
+    #return os.getenv('GITHUB_PATS').split(" ")
