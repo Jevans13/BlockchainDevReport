@@ -3,7 +3,7 @@ title = "Haven Protocol"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/haven-protocol-org"]
+github_organizations = []
 
 # Repositories
 [[repo]]

@@ -18,6 +18,7 @@ import datetime
 
 dir_path = path.dirname(path.realpath(__file__))
 
+errorList = [] 
 
 def element_wise_addition_lists(list1, list2):
     return [sum(x) for x in zip_longest(list1, list2, fillvalue=0)]
@@ -134,7 +135,7 @@ class DevOracle:
         try:
             with open(toml_file_path, 'r') as f:
                 data = f.read()
-            print("Fetching organizations for %s from toml file ..." % chain_name)
+            print("Fetching organizations for %s from toml file ... " % chain_name)
             github_orgs = toml.loads(data)['github_organizations']
             return github_orgs
         except:
@@ -193,7 +194,8 @@ class DevOracle:
             return repo_data
         except Exception as e:
             print(f"Exception occured while fetching single repo data {e}")
-            sys.exit(1)
+            errorList.append(org_then_slash_then_repo)
+            #sys.exit(1)
 
     # get repo data using a repo URL in the form of `org/repo`
     def _get_single_repo_data_from_api(self, org_then_slash_then_repo: str, year_count: int = 1):
@@ -206,8 +208,7 @@ class DevOracle:
             # TODO: Remove contributor specific code
             weekly_add_del = [{"additions": code_freq_obj._rawData[1],
                                "deletions": code_freq_obj._rawData[2]} for code_freq_obj in weekly_add_del]
-            contributors = [
-                contributor.author.login for contributor in repo.get_stats_contributors()]
+            contributors = [contributor.author.login for contributor in repo.get_stats_contributors()]
             return {
                 "name": org_then_slash_then_repo,
                 "repo": {
@@ -304,36 +305,53 @@ class DevOracle:
     # TODO: change 4w to make it more generic
     # analyses for latest 4w currently
     def _analyse_repo_data_for_churn_and_commits_4w(self, repo_data: dict):
-        repo = repo_data["repo"]
-        weekly_add_del = repo_data["weekly_add_del"]
-        weekly_commits = repo_data["weekly_commits"]
-        # TODO: remove contributor specific data
-        contributors = repo_data["contributors"]
-        releases = repo_data["releases"]
-
+        global churn_4w
+        global commits_4w
+        global weekly_add_del
+        global weekly_commits
+        global contributors
+        global releases
+        global repo
+        repo = 0
         churn_4w = 0
         commits_4w = 0
-        if weekly_add_del and weekly_commits:
-            for i in range(1, self.frequency + 1):
-                try:
-                    # weekly-add_del [<Week In UNIX Timestamp>, <additions>, <deletions with neg symbol>]
-                    # Deletions is negative, so churn is being calculated as #additions - #deletions
-                    churn_4w += (weekly_add_del[-i]["additions"] -
-                                 weekly_add_del[-i]["deletions"])
-                    commits_4w += weekly_commits[-i]
-                except:
-                    break
-        # TODO: remove contributor specific data
-        num_contributors = len(contributors) if contributors else 0
-        stats = {
-            'churn_4w': churn_4w,
-            'commits_4w': commits_4w,
-            'contributors': num_contributors,
-            'stars': repo["stargazers_count"],
-            'forks': repo["forks_count"],
-            'num_releases': releases
-        }
-        return stats
+        weekly_add_del = 0
+        weekly_commits = 0
+        contributors = 0
+        releases = 0
+        try:
+            repo = repo_data["repo"]
+            weekly_add_del = repo_data["weekly_add_del"]
+            weekly_commits = repo_data["weekly_commits"]
+            # TODO: remove contributor specific data
+            contributors = repo_data["contributors"]
+            releases = repo_data["releases"]
+        
+        
+            if weekly_add_del and weekly_commits:
+                for i in range(1, self.frequency + 1):
+                    try:
+                        # weekly-add_del [<Week In UNIX Timestamp>, <additions>, <deletions with neg symbol>]
+                        # Deletions is negative, so churn is being calculated as #additions - #deletions
+                        churn_4w += (weekly_add_del[-i]["additions"] -
+                                     weekly_add_del[-i]["deletions"])
+                        commits_4w += weekly_commits[-i]
+                    except:
+                        break
+            # TODO: remove contributor specific data
+            num_contributors = len(contributors) if contributors else 0
+            stats = {
+                'churn_4w': churn_4w,
+                'commits_4w': commits_4w,
+                'contributors': num_contributors,
+                'stars': repo["stargazers_count"],
+                'forks': repo["forks_count"],
+                'num_releases': releases
+            }
+            return stats
+        except Exception as e:
+            print(repo_data)
+
 
     # given a list of repo_data for org, analyze for
     # weekly_commits and weekly_churn for all weeks till now;
@@ -347,13 +365,16 @@ class DevOracle:
         churns = []
         commits = []
         for repo in repo_count_list:
-            this_churn = repo['weekly_churn']
-            this_commits = repo['weekly_commits']
-            # Reverse churn and commits array to show latest week data first
-            churns.append(this_churn[::-1])
-            commits.append(this_commits[::-1])
-        # Element wise addition of list of lists
-        # Re-reverse churn and commits array to show oldesr week data first
+            try:
+                this_churn = repo['weekly_churn']
+                this_commits = repo['weekly_commits']
+                # Reverse churn and commits array to show latest week data first
+                churns.append(this_churn[::-1])
+                commits.append(this_commits[::-1])
+            # Element wise addition of list of lists
+            # Re-reverse churn and commits array to show oldesr week data first
+            except:
+                next
         churns = [sum(x) for x in zip_longest(*churns, fillvalue=0)][::-1]
         commits = [sum(x) for x in zip_longest(*commits, fillvalue=0)][::-1]
         # churns = churns[-52:]
@@ -370,11 +391,17 @@ class DevOracle:
         return sc_dict
 
     def _get_weekly_churn_and_commits_of_repo(self, repo_data: dict):
-        org_then_slash_then_repo = repo_data["name"]
-        weekly_commits = repo_data["weekly_commits"]
-        weekly_add_del = repo_data["weekly_add_del"]
+        global weekly_add_del
+        global weekly_commits
+        global org_then_slash_then_repo
+        weekly_add_del = 0
+        weekly_commits = 0
+        org_then_slash_then_repo = ""
         try:
-            # For front-end app use, combining this github API call with that for single_repo_stats would be beneficial
+            org_then_slash_then_repo = repo_data["name"]
+            weekly_commits = repo_data["weekly_commits"]
+            weekly_add_del = repo_data["weekly_add_del"]
+                        # For front-end app use, combining this github API call with that for single_repo_stats would be beneficial
             weekly_churn = []
             if weekly_add_del:
                 for i in range(len(weekly_add_del)):
@@ -433,3 +460,5 @@ if __name__ == '__main__':
 
     do = DevOracle('./output', options.frequency)
     do.get_and_save_full_stats(sys.argv[1], years_count)
+
+

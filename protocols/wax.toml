@@ -1,9 +1,9 @@
 # Ecosystem Level Information
 title = "WAX"
 
-sub_ecosystems = []
+sub_ecosystems = ["AtomicHub"]
 
-github_organizations = ["https://github.com/worldwide-asset-exchange"]
+github_organizations = []
 
 # Repositories
 [[repo]]

@@ -3,7 +3,7 @@ title = "NEO"
 
 sub_ecosystems = ["Trinity"]
 
-github_organizations = ["https://github.com/neotracker", "https://github.com/neo-project"]
+github_organizations = ["https://github.com/neo-project"]
 
 # Repositories
 [[repo]]
@@ -391,6 +391,9 @@ tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/neo-project/neo.org"
+
+[[repo]]
+url = "https://github.com/neo-project/non-native-contracts"
 
 [[repo]]
 url = "https://github.com/neo-project/proposals"

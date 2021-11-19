@@ -7,7 +7,6 @@ github_organizations = [
   "https://github.com/etclabscore",
   "https://github.com/eth-classic",
   "https://github.com/ethereumproject",
-  "https://github.com/ethereumclassic"
 ]
 
 # Repositories
@@ -78,7 +77,16 @@ url = "https://github.com/etclabscore/core-geth"
 url = "https://github.com/etclabscore/core-geth-website"
 
 [[repo]]
+url = "https://github.com/etclabscore/core-pool"
+
+[[repo]]
+url = "https://github.com/etclabscore/core-pool-interface"
+
+[[repo]]
 url = "https://github.com/etclabscore/cpp-etchash"
+
+[[repo]]
+url = "https://github.com/etclabscore/data-collection-examples"
 
 [[repo]]
 url = "https://github.com/etclabscore/DELETE-THIS-REPO-PLEASE"
@@ -342,6 +350,9 @@ url = "https://github.com/etclabscore/media-kit"
 url = "https://github.com/etclabscore/merkle-mountain-range-1"
 
 [[repo]]
+url = "https://github.com/etclabscore/meta-schema"
+
+[[repo]]
 url = "https://github.com/etclabscore/moloch"
 
 [[repo]]
@@ -358,6 +369,9 @@ url = "https://github.com/etclabscore/multi-geth-fork"
 
 [[repo]]
 url = "https://github.com/etclabscore/multi-geth-website"
+
+[[repo]]
+url = "https://github.com/etclabscore/nodes-interface"
 
 [[repo]]
 url = "https://github.com/etclabscore/open-etc-pool"
