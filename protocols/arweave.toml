@@ -1,9 +1,13 @@
 # Ecosystem Level Information
 title = "Arweave"
 
-sub_ecosystems = []
+sub_ecosystems = ["ArVerify", "KYVE", "Redstone Finance", "Sarcophagus", "Verto"]
 
-github_organizations = ["https://github.com/ArweaveTeam", "https://github.com/nestdotland"]
+github_organizations = [
+  "https://github.com/ArweaveTeam",
+  "https://github.com/nestdotland",
+  "https://github.com/th8ta",
+]
 
 # Repositories
 [[repo]]
@@ -46,6 +50,9 @@ url = "https://github.com/ArweaveTeam/b64fast"
 url = "https://github.com/ArweaveTeam/Bounties"
 
 [[repo]]
+url = "https://github.com/ArweaveTeam/bundle-dissector"
+
+[[repo]]
 url = "https://github.com/ArweaveTeam/chrome"
 
 [[repo]]
@@ -56,6 +63,9 @@ url = "https://github.com/ArweaveTeam/docs.arweave.org-info"
 
 [[repo]]
 url = "https://github.com/ArweaveTeam/ebloom"
+
+[[repo]]
+url = "https://github.com/ArweaveTeam/erlang-keccakf1600"
 
 [[repo]]
 url = "https://github.com/ArweaveTeam/esqlite"
@@ -193,6 +203,9 @@ url = "https://github.com/nestdotland/tweetshot"
 url = "https://github.com/nestdotland/twig"
 
 [[repo]]
+url = "https://github.com/nestdotland/twig-old"
+
+[[repo]]
 url = "https://github.com/nestdotland/ui"
 
 [[repo]]
@@ -200,3 +213,45 @@ url = "https://github.com/nestdotland/x"
 
 [[repo]]
 url = "https://github.com/nestdotland/yolk"
+
+[[repo]]
+url = "https://github.com/th8ta/AMS"
+
+[[repo]]
+url = "https://github.com/th8ta/ArConnect"
+
+[[repo]]
+url = "https://github.com/th8ta/arconnect-examples"
+
+[[repo]]
+url = "https://github.com/th8ta/arconnect-ui"
+
+[[repo]]
+url = "https://github.com/th8ta/ArConnect-web"
+
+[[repo]]
+url = "https://github.com/th8ta/arconnect-web-new"
+
+[[repo]]
+url = "https://github.com/th8ta/bar"
+
+[[repo]]
+url = "https://github.com/th8ta/design"
+
+[[repo]]
+url = "https://github.com/th8ta/docs"
+
+[[repo]]
+url = "https://github.com/th8ta/standards"
+
+[[repo]]
+url = "https://github.com/th8ta/stats"
+
+[[repo]]
+url = "https://github.com/th8ta/th8ta.org"
+
+[[repo]]
+url = "https://github.com/th8ta/vallo"
+
+[[repo]]
+url = "https://github.com/th8ta/wallet-miner"

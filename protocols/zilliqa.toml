@@ -80,6 +80,9 @@ url = "https://github.com/Zilliqa/bignum"
 url = "https://github.com/Zilliqa/ceres"
 
 [[repo]]
+url = "https://github.com/Zilliqa/community-contracts"
+
+[[repo]]
 url = "https://github.com/Zilliqa/cryptometa"
 
 [[repo]]
@@ -93,6 +96,9 @@ url = "https://github.com/Zilliqa/dev-portal"
 
 [[repo]]
 url = "https://github.com/Zilliqa/dev-portal-examples"
+
+[[repo]]
+url = "https://github.com/Zilliqa/dev-wallet"
 
 [[repo]]
 url = "https://github.com/Zilliqa/devex"
@@ -144,6 +150,9 @@ url = "https://github.com/Zilliqa/nucleus-wallet"
 url = "https://github.com/Zilliqa/rollback-compensation"
 
 [[repo]]
+url = "https://github.com/Zilliqa/rosetta-ecosystem"
+
+[[repo]]
 url = "https://github.com/Zilliqa/savant-ide"
 
 [[repo]]
@@ -155,6 +164,9 @@ tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/Zilliqa/scilla-compiler"
+
+[[repo]]
+url = "https://github.com/Zilliqa/Scilla-Cookbook"
 
 [[repo]]
 url = "https://github.com/Zilliqa/scilla-coq"
@@ -191,6 +203,9 @@ url = "https://github.com/Zilliqa/staking-calculator-plugin"
 
 [[repo]]
 url = "https://github.com/Zilliqa/staking-contract"
+
+[[repo]]
+url = "https://github.com/Zilliqa/switcheo-tradehub-eth"
 
 [[repo]]
 url = "https://github.com/Zilliqa/TokenSwapContract"
@@ -258,6 +273,9 @@ url = "https://github.com/Zilliqa/zilliqa-rosetta"
 
 [[repo]]
 url = "https://github.com/Zilliqa/zilliqa-social-pay"
+
+[[repo]]
+url = "https://github.com/Zilliqa/zilliqa-stats"
 
 [[repo]]
 url = "https://github.com/Zilliqa/Zilliqa-wiki"

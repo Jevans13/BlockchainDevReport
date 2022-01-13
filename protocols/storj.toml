@@ -148,6 +148,9 @@ url = "https://github.com/storj/heroku-addon"
 url = "https://github.com/storj/heroku-email-service"
 
 [[repo]]
+url = "https://github.com/storj/illustrated"
+
+[[repo]]
 url = "https://github.com/storj/integration"
 
 [[repo]]
@@ -206,6 +209,9 @@ url = "https://github.com/storj/one-click-hugo-cms"
 
 [[repo]]
 url = "https://github.com/storj/perftester"
+
+[[repo]]
+url = "https://github.com/storj/picobuf"
 
 [[repo]]
 url = "https://github.com/storj/private"
@@ -389,6 +395,9 @@ url = "https://github.com/storj/template"
 
 [[repo]]
 url = "https://github.com/storj/test-path-corpus"
+
+[[repo]]
+url = "https://github.com/storj/up"
 
 [[repo]]
 url = "https://github.com/storj/updatekate"

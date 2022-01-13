@@ -12,6 +12,9 @@ github_organizations = [
 
 # Repositories
 [[repo]]
+url = "https://github.com/balancednetwork/assets"
+
+[[repo]]
 url = "https://github.com/balancednetwork/balanced-contracts"
 
 [[repo]]
@@ -139,6 +142,9 @@ url = "https://github.com/icon-project/icon-service-test-suite"
 
 [[repo]]
 url = "https://github.com/icon-project/icon-testsuite"
+
+[[repo]]
+url = "https://github.com/icon-project/icon2-docker"
 
 [[repo]]
 url = "https://github.com/icon-project/icon_cli_tool"

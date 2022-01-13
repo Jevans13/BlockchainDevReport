@@ -125,6 +125,9 @@ url = "https://github.com/zcash/gitian.sigs"
 url = "https://github.com/zcash/halo2"
 
 [[repo]]
+url = "https://github.com/zcash/halo2_gadgets"
+
+[[repo]]
 url = "https://github.com/zcash/homebrew-formulae"
 
 [[repo]]
@@ -162,6 +165,9 @@ url = "https://github.com/zcash/pasta_curves"
 
 [[repo]]
 url = "https://github.com/zcash/pollard"
+
+[[repo]]
+url = "https://github.com/zcash/rpc"
 
 [[repo]]
 url = "https://github.com/zcash/sapling-security-analysis"
@@ -210,6 +216,9 @@ url = "https://github.com/zcash/zcash-seeder"
 url = "https://github.com/zcash/zcash-wordpress-theme"
 
 [[repo]]
+url = "https://github.com/zcash/zcash.github.io"
+
+[[repo]]
 url = "https://github.com/zcash/ZcashLightClientKit"
 
 [[repo]]
@@ -226,6 +235,9 @@ url = "https://github.com/ZcashFoundation/bellman"
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/bn"
+
+[[repo]]
+url = "https://github.com/ZcashFoundation/btcd"
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/coredns-zcash"
@@ -264,6 +276,9 @@ url = "https://github.com/ZcashFoundation/mailman-lists-archive"
 url = "https://github.com/ZcashFoundation/metrics"
 
 [[repo]]
+url = "https://github.com/ZcashFoundation/orchard"
+
+[[repo]]
 url = "https://github.com/ZcashFoundation/pairing"
 
 [[repo]]
@@ -271,6 +286,9 @@ url = "https://github.com/ZcashFoundation/parity-zcash"
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/powersoftau-attestations"
+
+[[repo]]
+url = "https://github.com/ZcashFoundation/reddsa"
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/redjubjub"

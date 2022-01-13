@@ -34,6 +34,9 @@ url = "https://github.com/fetchai/apps-wallet-chrome-extension"
 url = "https://github.com/fetchai/assets"
 
 [[repo]]
+url = "https://github.com/fetchai/bdjuno"
+
+[[repo]]
 url = "https://github.com/fetchai/bep3-deputy"
 
 [[repo]]
@@ -143,6 +146,9 @@ url = "https://github.com/fetchai/networks-agentland"
 url = "https://github.com/fetchai/networks-beaconworld"
 
 [[repo]]
+url = "https://github.com/fetchai/nilam-bsc"
+
+[[repo]]
 url = "https://github.com/fetchai/oef-core"
 
 [[repo]]
@@ -186,6 +192,9 @@ url = "https://github.com/fetchai/safe-contracts"
 
 [[repo]]
 url = "https://github.com/fetchai/staking-contract"
+
+[[repo]]
+url = "https://github.com/fetchai/tech-writer-challenge"
 
 [[repo]]
 url = "https://github.com/fetchai/tendermint"

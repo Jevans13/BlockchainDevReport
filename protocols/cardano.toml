@@ -1,9 +1,15 @@
 # Ecosystem Level Information
 title = "Cardano"
 
-sub_ecosystems = []
+sub_ecosystems = ["Berry", "Minswap", "SundaeSwap"]
 
-github_organizations = ["https://github.com/input-output-hk"]
+github_organizations = [
+  "https://github.com/armada-alliance",
+  "https://github.com/cardano-foundation",
+  "https://github.com/CardanoSolutions",
+  "https://github.com/input-output-hk",
+  "https://github.com/stakhanovite-io",
+]
 
 # Repositories
 [[repo]]
@@ -19,10 +25,94 @@ url = "https://github.com/a-traveller/cardan"
 url = "https://github.com/Akagi201/learning-cardano"
 
 [[repo]]
+url = "https://github.com/antipalos/antipalos.github.io"
+
+[[repo]]
+url = "https://github.com/armada-alliance/accounts"
+
+[[repo]]
+url = "https://github.com/armada-alliance/alpine-rpi-os"
+
+[[repo]]
 url = "https://github.com/armada-alliance/armada-alliance"
 
 [[repo]]
+url = "https://github.com/armada-alliance/armada-alliance.github.io"
+
+[[repo]]
+url = "https://github.com/armada-alliance/armada-api"
+
+[[repo]]
+url = "https://github.com/armada-alliance/armada-ping"
+
+[[repo]]
+url = "https://github.com/armada-alliance/armada-resource-index"
+
+[[repo]]
+url = "https://github.com/armada-alliance/assets"
+
+[[repo]]
+url = "https://github.com/armada-alliance/cardano-db-sync"
+
+[[repo]]
+url = "https://github.com/armada-alliance/cardano-heartbeat"
+
+[[repo]]
+url = "https://github.com/armada-alliance/cardano-minter"
+
+[[repo]]
+url = "https://github.com/armada-alliance/cardano-minter-collection"
+
+[[repo]]
+url = "https://github.com/armada-alliance/cardano-node-binaries"
+
+[[repo]]
+url = "https://github.com/armada-alliance/cardano-space-minter"
+
+[[repo]]
+url = "https://github.com/armada-alliance/cardanocli-js"
+
+[[repo]]
+url = "https://github.com/armada-alliance/cardanocli-rest"
+
+[[repo]]
+url = "https://github.com/armada-alliance/cardanospace"
+
+[[repo]]
+url = "https://github.com/armada-alliance/cardanospace-v2"
+
+[[repo]]
+url = "https://github.com/armada-alliance/dao"
+
+[[repo]]
+url = "https://github.com/armada-alliance/dash"
+
+[[repo]]
+url = "https://github.com/armada-alliance/dashboards"
+
+[[repo]]
+url = "https://github.com/armada-alliance/essential-armada"
+
+[[repo]]
+url = "https://github.com/armada-alliance/essential-cardano"
+
+[[repo]]
 url = "https://github.com/armada-alliance/master"
+
+[[repo]]
+url = "https://github.com/armada-alliance/NFT-Metadata-Standard-CIP"
+
+[[repo]]
+url = "https://github.com/armada-alliance/rewards"
+
+[[repo]]
+url = "https://github.com/armada-alliance/SPO"
+
+[[repo]]
+url = "https://github.com/armada-alliance/STAKE_POOL_FAQ"
+
+[[repo]]
+url = "https://github.com/armada-alliance/test-repo"
 
 [[repo]]
 url = "https://github.com/cardano-community/concepts"
@@ -34,7 +124,52 @@ url = "https://github.com/cardano-community/guild-operators"
 url = "https://github.com/cardano-community/support-faq"
 
 [[repo]]
+url = "https://github.com/cardano-foundation/ambassadors-guild"
+
+[[repo]]
+url = "https://github.com/cardano-foundation/cardano-org-header"
+
+[[repo]]
+url = "https://github.com/cardano-foundation/cardano-token-registry"
+
+[[repo]]
+url = "https://github.com/cardano-foundation/CIPs"
+
+[[repo]]
+url = "https://github.com/cardano-foundation/developer-portal"
+
+[[repo]]
+url = "https://github.com/cardano-foundation/docs-cardano-org"
+
+[[repo]]
+url = "https://github.com/cardano-foundation/incentivized-testnet-stakepool-registry"
+
+[[repo]]
+url = "https://github.com/cardano-foundation/ledger-app-cardano"
+
+[[repo]]
+url = "https://github.com/cardano-foundation/ledgerjs-hw-app-cardano"
+
+[[repo]]
+url = "https://github.com/cardano-foundation/stake-pool-school-handbook"
+
+[[repo]]
+url = "https://github.com/cardano-foundation/testnets-cardano-org"
+
+[[repo]]
 url = "https://github.com/cardanofans/homeland"
+
+[[repo]]
+url = "https://github.com/CardanoSolutions/gh-action-cardano-node-ogmios-docker-sync"
+
+[[repo]]
+url = "https://github.com/CardanoSolutions/json-bigint"
+
+[[repo]]
+url = "https://github.com/CardanoSolutions/json-schema-to-typescript"
+
+[[repo]]
+url = "https://github.com/CardanoSolutions/ogmios"
 
 [[repo]]
 url = "https://github.com/CardanoUmbrella/awesome-cardano"
@@ -112,6 +247,9 @@ url = "https://github.com/input-output-hk/archived-iohk-gatsby-starter"
 url = "https://github.com/input-output-hk/asterius"
 
 [[repo]]
+url = "https://github.com/input-output-hk/atala-infra"
+
+[[repo]]
 url = "https://github.com/input-output-hk/atala-prism-demo"
 
 [[repo]]
@@ -155,6 +293,9 @@ url = "https://github.com/input-output-hk/bitte-dashboard"
 
 [[repo]]
 url = "https://github.com/input-output-hk/bitte-iogo"
+
+[[repo]]
+url = "https://github.com/input-output-hk/bitte-test-cluster"
 
 [[repo]]
 url = "https://github.com/input-output-hk/block_expectation_paper"
@@ -275,6 +416,9 @@ url = "https://github.com/input-output-hk/cardano-ledger-specs"
 
 [[repo]]
 url = "https://github.com/input-output-hk/cardano-mainnet-mirror"
+
+[[repo]]
+url = "https://github.com/input-output-hk/cardano-memory-benchmark"
 
 [[repo]]
 url = "https://github.com/input-output-hk/cardano-metadata-submitter"
@@ -398,6 +542,9 @@ url = "https://github.com/input-output-hk/ChimpHttpCallTester"
 url = "https://github.com/input-output-hk/ci-ops"
 
 [[repo]]
+url = "https://github.com/input-output-hk/cicero"
+
+[[repo]]
 url = "https://github.com/input-output-hk/CIPs"
 
 [[repo]]
@@ -444,6 +591,9 @@ url = "https://github.com/input-output-hk/deploy-rs"
 
 [[repo]]
 url = "https://github.com/input-output-hk/dev-handbook"
+
+[[repo]]
+url = "https://github.com/input-output-hk/devx-docs"
 
 [[repo]]
 url = "https://github.com/input-output-hk/dialoguer"
@@ -546,6 +696,9 @@ url = "https://github.com/input-output-hk/fenrir"
 
 [[repo]]
 url = "https://github.com/input-output-hk/flake-compat"
+
+[[repo]]
+url = "https://github.com/input-output-hk/flake-registry"
 
 [[repo]]
 url = "https://github.com/input-output-hk/flake-updater-action"
@@ -659,6 +812,9 @@ url = "https://github.com/input-output-hk/hyperledger-labs.github.io"
 url = "https://github.com/input-output-hk/iapyx"
 
 [[repo]]
+url = "https://github.com/input-output-hk/immer"
+
+[[repo]]
 url = "https://github.com/input-output-hk/implementation-decisions"
 
 [[repo]]
@@ -743,6 +899,9 @@ url = "https://github.com/input-output-hk/katip"
 url = "https://github.com/input-output-hk/kes-mmm-sumed25519"
 
 [[repo]]
+url = "https://github.com/input-output-hk/kevm.flake"
+
+[[repo]]
 url = "https://github.com/input-output-hk/Lagonaki"
 
 [[repo]]
@@ -774,6 +933,9 @@ url = "https://github.com/input-output-hk/line-oauth"
 
 [[repo]]
 url = "https://github.com/input-output-hk/lips"
+
+[[repo]]
+url = "https://github.com/input-output-hk/llvm-backend"
 
 [[repo]]
 url = "https://github.com/input-output-hk/lnd"
@@ -842,6 +1004,15 @@ url = "https://github.com/input-output-hk/mantis-wallet-qa-automation"
 url = "https://github.com/input-output-hk/marlowe"
 
 [[repo]]
+url = "https://github.com/input-output-hk/marlowe-cardano"
+
+[[repo]]
+url = "https://github.com/input-output-hk/marlowe-dependency-docs"
+
+[[repo]]
+url = "https://github.com/input-output-hk/marlowe-website"
+
+[[repo]]
 url = "https://github.com/input-output-hk/mattermost-mobile"
 
 [[repo]]
@@ -902,6 +1073,9 @@ url = "https://github.com/input-output-hk/nix-archive"
 url = "https://github.com/input-output-hk/nix-bundle"
 
 [[repo]]
+url = "https://github.com/input-output-hk/nix-cache-proxy"
+
+[[repo]]
 url = "https://github.com/input-output-hk/nix-darwin"
 
 [[repo]]
@@ -956,7 +1130,16 @@ url = "https://github.com/input-output-hk/nixpkgs-channels"
 url = "https://github.com/input-output-hk/nomad"
 
 [[repo]]
+url = "https://github.com/input-output-hk/nomad-driver-nix"
+
+[[repo]]
 url = "https://github.com/input-output-hk/nomad-driver-nspawn-nixos-container"
+
+[[repo]]
+url = "https://github.com/input-output-hk/nomad-follower"
+
+[[repo]]
+url = "https://github.com/input-output-hk/nomad_follower"
 
 [[repo]]
 url = "https://github.com/input-output-hk/nothunks"
@@ -1022,6 +1205,9 @@ url = "https://github.com/input-output-hk/plato_dockerfiles"
 url = "https://github.com/input-output-hk/plutus"
 
 [[repo]]
+url = "https://github.com/input-output-hk/plutus-apps"
+
+[[repo]]
 url = "https://github.com/input-output-hk/plutus-metatheory"
 
 [[repo]]
@@ -1082,6 +1268,12 @@ url = "https://github.com/input-output-hk/purescript-base58"
 url = "https://github.com/input-output-hk/purescript-bridge"
 
 [[repo]]
+url = "https://github.com/input-output-hk/purescript-bridge-json-helpers"
+
+[[repo]]
+url = "https://github.com/input-output-hk/purescript-datetime-iso"
+
+[[repo]]
 url = "https://github.com/input-output-hk/purescript-echarts"
 
 [[repo]]
@@ -1101,6 +1293,9 @@ url = "https://github.com/input-output-hk/purescript-servant-support"
 
 [[repo]]
 url = "https://github.com/input-output-hk/purescript-test-task"
+
+[[repo]]
+url = "https://github.com/input-output-hk/purescript-web-common"
 
 [[repo]]
 url = "https://github.com/input-output-hk/purescript-websocket-simple"
@@ -1364,6 +1559,9 @@ url = "https://github.com/input-output-hk/vrf-optimisation-tests"
 url = "https://github.com/input-output-hk/web"
 
 [[repo]]
+url = "https://github.com/input-output-hk/web-common"
+
+[[repo]]
 url = "https://github.com/input-output-hk/web3-iele"
 
 [[repo]]
@@ -1451,6 +1649,9 @@ url = "https://github.com/SmaugPool/blender-cardano-logo"
 url = "https://github.com/SmaugPool/cardano-linux-binaries"
 
 [[repo]]
+url = "https://github.com/stakhanovite-io/stakhanovite-io.github.io"
+
+[[repo]]
 url = "https://github.com/subnetdev/cardano-jormungandr-node"
 
 [[repo]]
@@ -1458,3 +1659,6 @@ url = "https://github.com/tugolukov/Cardano"
 
 [[repo]]
 url = "https://github.com/vacuumlabs/adalite"
+
+[[repo]]
+url = "https://github.com/wutzebaer/cardano-tools"

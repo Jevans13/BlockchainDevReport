@@ -3,6 +3,8 @@
 import asyncio
 import datetime as dt
 import json
+import numpy
+import csv
 from os import path, remove
 import re
 from logger import sys
@@ -12,6 +14,7 @@ import toml
 from aiohttp import ClientSession
 from gitTokenHelper import GithubPersonalAccessTokenHelper
 from config import get_pats
+
 
 dir_path = path.dirname(path.realpath(__file__))
 
@@ -346,6 +349,8 @@ class Contributors:
 
         stats = None
         seen_repos = []
+        active_cont = [protocol_name]
+        
         if path.exists(out_file_name_with_path):
             with open(out_file_name_with_path, 'r') as stats_json:
                 stats = json.load(stats_json)
@@ -418,8 +423,9 @@ class Contributors:
                 deduplicated_monthly_contributors = list(
                     set(month_of_contributors))
                 data[index] = deduplicated_monthly_contributors
-                print('Month ' + str(index + 1) + ': ' +
-                      str(len(deduplicated_monthly_contributors)))
+                output = 'Month ' + str(index + 1) + ': ' + str(len(deduplicated_monthly_contributors))
+                print(output)
+                active_cont.append(output)
             deduplicated_contributors = data
         else:
             deduplicated_contributors = list(set(data))
@@ -427,8 +433,14 @@ class Contributors:
                   str(len(deduplicated_contributors)))
         with open(out_file_name_with_path, 'w') as outfile:
             json.dump(deduplicated_contributors, outfile)
+        monthly_active_to_csv(active_cont)
         return deduplicated_contributors
 
+#Writes monthly active contributors to csv file - replace filename with output location
+def monthly_active_to_csv(output):
+    with open('/Users/jackevans/Documents/MakerDAO/Code/Outputs/contrPYoutput.csv','a', newline='') as fd:
+        write = csv.writer(fd, delimiter=',')
+        write.writerow(output)
 
 # Get last commit from JSON response, and create one list of all active in the past n years, and one list of all contributors ever
 # Write to file every n repos + repos viewed to not lose progress

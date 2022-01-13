@@ -1,13 +1,22 @@
 # Ecosystem Level Information
 title = "Gnosis"
 
-sub_ecosystems = []
+sub_ecosystems = ["Cowswap Exchange", "Orca Protocol"]
 
 github_organizations = ["https://github.com/gnosis"]
 
 # Repositories
 [[repo]]
 url = "https://github.com/gnosis/1155-to-20"
+
+[[repo]]
+url = "https://github.com/gnosis/abi-demo"
+
+[[repo]]
+url = "https://github.com/gnosis/amb-module"
+
+[[repo]]
+url = "https://github.com/gnosis/balanceAggregator"
 
 [[repo]]
 url = "https://github.com/gnosis/bivrost-kotlin"
@@ -20,6 +29,9 @@ url = "https://github.com/gnosis/BlockiesSwift"
 
 [[repo]]
 url = "https://github.com/gnosis/canonical-weth"
+
+[[repo]]
+url = "https://github.com/gnosis/cla-github-action"
 
 [[repo]]
 url = "https://github.com/gnosis/conditional-markets-interface"
@@ -58,6 +70,24 @@ url = "https://github.com/gnosis/contract-proxy-kit"
 url = "https://github.com/gnosis/corona-information-markets"
 
 [[repo]]
+url = "https://github.com/gnosis/cow-dex-solver"
+
+[[repo]]
+url = "https://github.com/gnosis/cow-runner-game"
+
+[[repo]]
+url = "https://github.com/gnosis/cow-sdk"
+
+[[repo]]
+url = "https://github.com/gnosis/cow-web"
+
+[[repo]]
+url = "https://github.com/gnosis/cowswap"
+
+[[repo]]
+url = "https://github.com/gnosis/cowswap-e2e"
+
+[[repo]]
 url = "https://github.com/gnosis/cpk-compound-example"
 
 [[repo]]
@@ -71,6 +101,9 @@ url = "https://github.com/gnosis/cpk-example-employee-payment"
 
 [[repo]]
 url = "https://github.com/gnosis/cryptoeconomic-experiments"
+
+[[repo]]
+url = "https://github.com/gnosis/dao-module"
 
 [[repo]]
 url = "https://github.com/gnosis/dapp-react-2.0"
@@ -94,6 +127,9 @@ url = "https://github.com/gnosis/DateTools"
 url = "https://github.com/gnosis/DeFi-Pulse-Adapters"
 
 [[repo]]
+url = "https://github.com/gnosis/delay-module"
+
+[[repo]]
 url = "https://github.com/gnosis/delayed-exec-contract"
 
 [[repo]]
@@ -113,6 +149,9 @@ url = "https://github.com/gnosis/dex-contracts"
 
 [[repo]]
 url = "https://github.com/gnosis/dex-contracts-integration-example"
+
+[[repo]]
+url = "https://github.com/gnosis/dex-cow-solver"
 
 [[repo]]
 url = "https://github.com/gnosis/dex-docs"
@@ -166,7 +205,13 @@ url = "https://github.com/gnosis/dex-visualization-tools"
 url = "https://github.com/gnosis/dex-zksnarks"
 
 [[repo]]
+url = "https://github.com/gnosis/deylay-module"
+
+[[repo]]
 url = "https://github.com/gnosis/dfusion-docs"
+
+[[repo]]
+url = "https://github.com/gnosis/did-spec-registries"
 
 [[repo]]
 url = "https://github.com/gnosis/disbursement-contracts"
@@ -277,6 +322,9 @@ url = "https://github.com/gnosis/EIPs"
 url = "https://github.com/gnosis/eth-berlin-location-recovery"
 
 [[repo]]
+url = "https://github.com/gnosis/eth-net-intelligence-api"
+
+[[repo]]
 url = "https://github.com/gnosis/ethcontract-rs"
 
 [[repo]]
@@ -287,6 +335,9 @@ url = "https://github.com/gnosis/etherbalance"
 
 [[repo]]
 url = "https://github.com/gnosis/EthereumKit"
+
+[[repo]]
+url = "https://github.com/gnosis/ethers-multisend"
 
 [[repo]]
 url = "https://github.com/gnosis/example-safe-web3-provider"
@@ -320,10 +371,28 @@ url = "https://github.com/gnosis/gnosis-exchange"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/gnosis/gnosis-guild-app"
+
+[[repo]]
 url = "https://github.com/gnosis/gnosis-hg-js"
 
 [[repo]]
 url = "https://github.com/gnosis/gnosis-py"
+
+[[repo]]
+url = "https://github.com/gnosis/gp-dune-bridge"
+
+[[repo]]
+url = "https://github.com/gnosis/gp-gas-estimation"
+
+[[repo]]
+url = "https://github.com/gnosis/gp-swap-ui"
+
+[[repo]]
+url = "https://github.com/gnosis/gp-transaction-retry"
+
+[[repo]]
+url = "https://github.com/gnosis/gp-ui"
 
 [[repo]]
 url = "https://github.com/gnosis/gp-v1-ui"
@@ -335,13 +404,25 @@ url = "https://github.com/gnosis/gp-v1-web"
 url = "https://github.com/gnosis/gp-v2-contracts"
 
 [[repo]]
+url = "https://github.com/gnosis/gp-v2-dune"
+
+[[repo]]
 url = "https://github.com/gnosis/gp-v2-services"
+
+[[repo]]
+url = "https://github.com/gnosis/gp-v2-simple-solver-template"
 
 [[repo]]
 url = "https://github.com/gnosis/gp-v2-solver"
 
 [[repo]]
 url = "https://github.com/gnosis/gp-v2-swap"
+
+[[repo]]
+url = "https://github.com/gnosis/gp-v2-trading-bot"
+
+[[repo]]
+url = "https://github.com/gnosis/Grafana-Dashboard-Sync"
 
 [[repo]]
 url = "https://github.com/gnosis/graph-node-reader"
@@ -351,6 +432,9 @@ url = "https://github.com/gnosis/graph-test"
 
 [[repo]]
 url = "https://github.com/gnosis/heimdall-ios"
+
+[[repo]]
+url = "https://github.com/gnosis/hez-matic-merge"
 
 [[repo]]
 url = "https://github.com/gnosis/hg-contracts-playground"
@@ -369,6 +453,12 @@ url = "https://github.com/gnosis/hg-trading-ui"
 
 [[repo]]
 url = "https://github.com/gnosis/ido-contracts"
+
+[[repo]]
+url = "https://github.com/gnosis/ido-starter"
+
+[[repo]]
+url = "https://github.com/gnosis/ido-ux"
 
 [[repo]]
 url = "https://github.com/gnosis/Keycard.swift"
@@ -395,6 +485,15 @@ url = "https://github.com/gnosis/miplib"
 url = "https://github.com/gnosis/mock-contract"
 
 [[repo]]
+url = "https://github.com/gnosis/module-factory"
+
+[[repo]]
+url = "https://github.com/gnosis/multicall"
+
+[[repo]]
+url = "https://github.com/gnosis/multisend-js"
+
+[[repo]]
 url = "https://github.com/gnosis/MultiSigWallet"
 
 [[repo]]
@@ -413,6 +512,9 @@ url = "https://github.com/gnosis/oba-solver"
 url = "https://github.com/gnosis/oba-uniswap-research"
 
 [[repo]]
+url = "https://github.com/gnosis/oe4"
+
+[[repo]]
 url = "https://github.com/gnosis/olympia-landing-page"
 
 [[repo]]
@@ -420,6 +522,9 @@ url = "https://github.com/gnosis/omen-subgraph"
 
 [[repo]]
 url = "https://github.com/gnosis/onboard"
+
+[[repo]]
+url = "https://github.com/gnosis/onboarding-docs"
 
 [[repo]]
 url = "https://github.com/gnosis/openzeppelin-solidity"
@@ -491,10 +596,22 @@ url = "https://github.com/gnosis/projects"
 url = "https://github.com/gnosis/pydkg"
 
 [[repo]]
+url = "https://github.com/gnosis/react-multisend"
+
+[[repo]]
 url = "https://github.com/gnosis/realitio-gnosis-proxy"
 
 [[repo]]
+url = "https://github.com/gnosis/regex-stream-split"
+
+[[repo]]
 url = "https://github.com/gnosis/research"
+
+[[repo]]
+url = "https://github.com/gnosis/reth"
+
+[[repo]]
+url = "https://github.com/gnosis/reth-scheduler"
 
 [[repo]]
 url = "https://github.com/gnosis/reth-util"
@@ -521,6 +638,12 @@ url = "https://github.com/gnosis/safe-android-kouban"
 url = "https://github.com/gnosis/safe-app-template"
 
 [[repo]]
+url = "https://github.com/gnosis/safe-apps-dev-ui"
+
+[[repo]]
+url = "https://github.com/gnosis/safe-apps-list"
+
+[[repo]]
 url = "https://github.com/gnosis/safe-apps-sdk"
 
 [[repo]]
@@ -536,13 +659,22 @@ url = "https://github.com/gnosis/safe-client-gateway"
 url = "https://github.com/gnosis/safe-cmm-app-react"
 
 [[repo]]
+url = "https://github.com/gnosis/safe-config-service"
+
+[[repo]]
 url = "https://github.com/gnosis/safe-contract-deployment-replay"
 
 [[repo]]
 url = "https://github.com/gnosis/safe-contracts"
 
 [[repo]]
+url = "https://github.com/gnosis/safe-core-sdk"
+
+[[repo]]
 url = "https://github.com/gnosis/safe-demo"
+
+[[repo]]
+url = "https://github.com/gnosis/safe-deployments"
 
 [[repo]]
 url = "https://github.com/gnosis/safe-docs"
@@ -554,10 +686,28 @@ url = "https://github.com/gnosis/safe-factories"
 url = "https://github.com/gnosis/safe-finder"
 
 [[repo]]
+url = "https://github.com/gnosis/safe-indexer"
+
+[[repo]]
+url = "https://github.com/gnosis/safe-infrastructure"
+
+[[repo]]
+url = "https://github.com/gnosis/safe-integration-examples"
+
+[[repo]]
+url = "https://github.com/gnosis/safe-intercom-id-generator"
+
+[[repo]]
 url = "https://github.com/gnosis/safe-ios"
 
 [[repo]]
 url = "https://github.com/gnosis/safe-ios-legacy"
+
+[[repo]]
+url = "https://github.com/gnosis/safe-landing-page"
+
+[[repo]]
+url = "https://github.com/gnosis/safe-module-manager"
 
 [[repo]]
 url = "https://github.com/gnosis/safe-modules"
@@ -587,13 +737,31 @@ url = "https://github.com/gnosis/safe-react-apps"
 url = "https://github.com/gnosis/safe-react-components"
 
 [[repo]]
+url = "https://github.com/gnosis/safe-react-e2e-tests"
+
+[[repo]]
 url = "https://github.com/gnosis/safe-react-eslint-plus-action"
+
+[[repo]]
+url = "https://github.com/gnosis/safe-react-gateway-sdk"
 
 [[repo]]
 url = "https://github.com/gnosis/safe-relay-service"
 
 [[repo]]
 url = "https://github.com/gnosis/safe-scripts"
+
+[[repo]]
+url = "https://github.com/gnosis/safe-services-status"
+
+[[repo]]
+url = "https://github.com/gnosis/safe-singleton-factory"
+
+[[repo]]
+url = "https://github.com/gnosis/safe-sync-status"
+
+[[repo]]
+url = "https://github.com/gnosis/safe-tasks"
 
 [[repo]]
 url = "https://github.com/gnosis/safe-test-app"
@@ -605,7 +773,28 @@ url = "https://github.com/gnosis/safe-transaction-service"
 url = "https://github.com/gnosis/safe-transaction-service-example"
 
 [[repo]]
+url = "https://github.com/gnosis/safe-transaction-signer"
+
+[[repo]]
 url = "https://github.com/gnosis/safe-web3-provider"
+
+[[repo]]
+url = "https://github.com/gnosis/safe-web3api"
+
+[[repo]]
+url = "https://github.com/gnosis/SafeBridge"
+
+[[repo]]
+url = "https://github.com/gnosis/SafeDelay"
+
+[[repo]]
+url = "https://github.com/gnosis/SafeExit"
+
+[[repo]]
+url = "https://github.com/gnosis/sapp-matryoshka"
+
+[[repo]]
+url = "https://github.com/gnosis/ScopeGuard"
 
 [[repo]]
 url = "https://github.com/gnosis/secp256k1.swift"
@@ -641,13 +830,25 @@ url = "https://github.com/gnosis/subgraph-rs"
 url = "https://github.com/gnosis/svalinn-kotlin"
 
 [[repo]]
+url = "https://github.com/gnosis/SwiftAccessPolicy"
+
+[[repo]]
 url = "https://github.com/gnosis/SwiftCryptoTokenFormatter"
+
+[[repo]]
+url = "https://github.com/gnosis/testable-chi-token"
 
 [[repo]]
 url = "https://github.com/gnosis/thegraph-subgraphs-monitor"
 
 [[repo]]
 url = "https://github.com/gnosis/token-splitter"
+
+[[repo]]
+url = "https://github.com/gnosis/transaction-pilot"
+
+[[repo]]
+url = "https://github.com/gnosis/transaction-simulator"
 
 [[repo]]
 url = "https://github.com/gnosis/trezor-web3-subprovider"
@@ -687,3 +888,39 @@ url = "https://github.com/gnosis/WalletConnectSwift"
 
 [[repo]]
 url = "https://github.com/gnosis/Web3.swift"
+
+[[repo]]
+url = "https://github.com/gnosis/zodiac"
+
+[[repo]]
+url = "https://github.com/gnosis/zodiac-guard-mod"
+
+[[repo]]
+url = "https://github.com/gnosis/zodiac-guard-scope"
+
+[[repo]]
+url = "https://github.com/gnosis/zodiac-modifier-delay"
+
+[[repo]]
+url = "https://github.com/gnosis/zodiac-modifier-roles"
+
+[[repo]]
+url = "https://github.com/gnosis/zodiac-module-bridge"
+
+[[repo]]
+url = "https://github.com/gnosis/zodiac-module-exit"
+
+[[repo]]
+url = "https://github.com/gnosis/zodiac-module-reality"
+
+[[repo]]
+url = "https://github.com/gnosis/zodiac-pilot"
+
+[[repo]]
+url = "https://github.com/gnosis/zodiac-polygon-tunnel"
+
+[[repo]]
+url = "https://github.com/gnosis/zodiac-safe-app"
+
+[[repo]]
+url = "https://github.com/gnosis/Zodiac-Transaction-Encoder"

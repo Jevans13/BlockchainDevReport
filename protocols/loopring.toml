@@ -7,6 +7,9 @@ github_organizations = ["https://github.com/Loopring"]
 
 # Repositories
 [[repo]]
+url = "https://github.com/Loopring/aave-stake-v2"
+
+[[repo]]
 url = "https://github.com/Loopring/accessor"
 
 [[repo]]
@@ -31,6 +34,9 @@ url = "https://github.com/Loopring/deploy-utils"
 url = "https://github.com/Loopring/DEX-API"
 
 [[repo]]
+url = "https://github.com/Loopring/DEX-API-V3"
+
+[[repo]]
 url = "https://github.com/Loopring/dex-ux"
 
 [[repo]]
@@ -47,6 +53,9 @@ url = "https://github.com/Loopring/documentation"
 
 [[repo]]
 url = "https://github.com/Loopring/documents"
+
+[[repo]]
+url = "https://github.com/Loopring/downloads"
 
 [[repo]]
 url = "https://github.com/Loopring/dx-contracts"
@@ -68,6 +77,9 @@ url = "https://github.com/Loopring/extractor"
 
 [[repo]]
 url = "https://github.com/Loopring/go-ethereum"
+
+[[repo]]
+url = "https://github.com/Loopring/go-iden3-crypto"
 
 [[repo]]
 url = "https://github.com/Loopring/h5dex"
@@ -130,16 +142,25 @@ url = "https://github.com/Loopring/loopr3"
 url = "https://github.com/Loopring/Loopring-Audit"
 
 [[repo]]
+url = "https://github.com/Loopring/loopring-explorer"
+
+[[repo]]
 url = "https://github.com/Loopring/loopring-protocol2-verification"
 
 [[repo]]
 url = "https://github.com/Loopring/loopring-reddit-theme"
 
 [[repo]]
+url = "https://github.com/Loopring/loopring-subgraph-v2"
+
+[[repo]]
 url = "https://github.com/Loopring/loopring-swap"
 
 [[repo]]
 url = "https://github.com/Loopring/loopring-wallet-feedback"
+
+[[repo]]
+url = "https://github.com/Loopring/loopring-web-v2"
 
 [[repo]]
 url = "https://github.com/Loopring/loopring.github.io"
@@ -157,7 +178,16 @@ url = "https://github.com/Loopring/loopring.js"
 url = "https://github.com/Loopring/loopring.org"
 
 [[repo]]
+url = "https://github.com/Loopring/loopring_sdk"
+
+[[repo]]
 url = "https://github.com/Loopring/loopringv3-withdraw-tool"
+
+[[repo]]
+url = "https://github.com/Loopring/loopringv3.1_staking"
+
+[[repo]]
+url = "https://github.com/Loopring/loopringv3.6-subgraph"
 
 [[repo]]
 url = "https://github.com/Loopring/LRC"
@@ -218,6 +248,9 @@ url = "https://github.com/Loopring/protocols"
 url = "https://github.com/Loopring/qtum-protocol"
 
 [[repo]]
+url = "https://github.com/Loopring/recharts"
+
+[[repo]]
 url = "https://github.com/Loopring/relay"
 
 [[repo]]
@@ -276,6 +309,12 @@ url = "https://github.com/Loopring/updex"
 
 [[repo]]
 url = "https://github.com/Loopring/vnpy"
+
+[[repo]]
+url = "https://github.com/Loopring/walletconnect-monorepo"
+
+[[repo]]
+url = "https://github.com/Loopring/walletconnect-v2-monorepo"
 
 [[repo]]
 url = "https://github.com/Loopring/web-widget"

@@ -274,6 +274,9 @@ url = "https://github.com/corda/ian-github-pages-test"
 url = "https://github.com/corda/infrastructure-profiles"
 
 [[repo]]
+url = "https://github.com/corda/IntelliJplugin-devrel"
+
+[[repo]]
 url = "https://github.com/corda/jediterm"
 
 [[repo]]
@@ -340,6 +343,12 @@ url = "https://github.com/corda/obligation-cordapp"
 url = "https://github.com/corda/Obscuro"
 
 [[repo]]
+url = "https://github.com/corda/obscuro-whitepaper"
+
+[[repo]]
+url = "https://github.com/corda/obscuro.github.io"
+
+[[repo]]
 url = "https://github.com/corda/observable-states"
 
 [[repo]]
@@ -388,6 +397,9 @@ url = "https://github.com/corda/r3.github.io"
 url = "https://github.com/corda/r3dev.github.io"
 
 [[repo]]
+url = "https://github.com/corda/r3developerportal-devrel"
+
+[[repo]]
 url = "https://github.com/corda/rec-orda"
 
 [[repo]]
@@ -404,6 +416,9 @@ url = "https://github.com/corda/samples"
 
 [[repo]]
 url = "https://github.com/corda/samples-java"
+
+[[repo]]
+url = "https://github.com/corda/samples-java-corda5"
 
 [[repo]]
 url = "https://github.com/corda/samples-kotlin"
@@ -431,6 +446,9 @@ url = "https://github.com/corda/TokenSDKDemo"
 
 [[repo]]
 url = "https://github.com/corda/training.corda.net"
+
+[[repo]]
+url = "https://github.com/corda/trainingsite-devrel"
 
 [[repo]]
 url = "https://github.com/corda/vscode-corda"

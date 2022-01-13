@@ -16,6 +16,9 @@ url = "https://github.com/Bytom/bmips"
 url = "https://github.com/Bytom/btmcpool"
 
 [[repo]]
+url = "https://github.com/Bytom/bystack"
+
+[[repo]]
 url = "https://github.com/Bytom/bytom"
 tags = ["Protocol"]
 
@@ -71,6 +74,9 @@ url = "https://github.com/Bytom/bytom.io_v2"
 url = "https://github.com/Bytom/bytom.js"
 
 [[repo]]
+url = "https://github.com/Bytom/bytom2-gm"
+
+[[repo]]
 url = "https://github.com/Bytom/community"
 
 [[repo]]
@@ -117,6 +123,9 @@ url = "https://github.com/Bytom/slips"
 
 [[repo]]
 url = "https://github.com/Bytom/spanner"
+
+[[repo]]
+url = "https://github.com/Bytom/summoner"
 
 [[repo]]
 url = "https://github.com/Bytom/sushiswap"
